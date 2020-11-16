@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container{
+    width: 85%;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+}
+section.top-menu{
+    background-color: #222222;
+    width: 100%;
+    padding: 4px 0px;
+    position: relative;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa{
+    color: white;
+}
+div.lefttop{
+    flex-grow: 2;
+}
+div.righttop{
+    flex-grow: 7;
+    margin-left: 155px;
+    position: relative;
+}
+.line{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-menu li{
+    display: inline-block;
+    font-size: 17px;
+}
+ ul li{
+    border-left: 0 !important;
+}
+div.righttop ul li >a{
+    display: block;
+    padding: 0 10px;
+    color: white;
+}
+#menu{
+    display: none;
+}
+.block{
+    display: block!important;
+}
+#menu li{
+    display: block;
+    line-height: 23px;
+    font-size: 15px;
+    margin: 6px;
+}
+#menu li a{
+    color: white;
+    background-color: #222222;
+}
+#menu {
+    position: absolute;
+    background: #222222;
+    top: 24px;
+    right: -125px;
+    width: 280px;
+    display: none;
+}
+
+section.top-menu{
+    width: 100%;
+    padding: 4px 0px;
+    position: relative;
+}
+#logo img{
+    margin-top: 30px;
+    flex-grow: 1;
+}
+div.middlelg{
+    flex-grow: 8;
+}
+#middle li{
+    display: inline-block;
+}
+#middle li img{
+    width: 45px;
+    height: 45px;
+}
+#hassub li{
+    display:inline-block;
+}
+.coll-icon p{
+    color: black;
+}
+a.menu{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+li.hassub{
+    margin: 10px;
+}
+#search input{
+    width: 60%;
+    border-radius: 25px !important;
+    display: inline-block;
+    padding: 10px;
+}
+.fa-search {
+    height: 10px;
+    color: black;
+}
+div.cart{
+    flex-grow: 3;
+    position: relative;
+}
+.fa-shopping-cart{
+    width: 20px;
+    height: 20px;
+}
+.cart-shop a >span{
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.fa-shopping-cart{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 58px;
+}
+div#search span >i{
+    color: white;
+    background-color: black;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 45px;
+}
+
+
+div.banner{
+    display: none;
+}
+body{
+    position: relative;
+}
+#prev, #next{
+    height: 70px;
+    width: 35px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    top: calc(50% - 35px);
+}
+#prev {
+    position: absolute;
+    border: none;
+    outline: none;
+    left: 0;
+}
+#next {
+    position: absolute;
+    border: none;
+    outline: none;
+    right: 0;
+}
+section.ban div.container{
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+}
+section.mwc div.container{
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+}
+.store{
+    background-color: #222222;
+}
+.container .store{
+    width: 100%;
+    height: auto;
+}
+h1, h2, h3 {
+    color: white;
+    font-family: myFont;
+    text-align: center;
+    margin-top: 50px;
+}
+@font-face {
+    font-family: myFont;
+    src: url(pacifico.woff);
+}
+section.middle-menu{
+    width: 100%;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    height: auto;
+    background-color: rgb(247, 241, 241, 0.7);
+}
+
+.none{
+    display: none;
+}
